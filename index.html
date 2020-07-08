@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Top Mobile Shop</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.css">     
+</head>
+<body>
+<div id="header">
+<h1>Top Mobile Shop</h1>
+<ul class="menu1">
+	<li class="sub"><a href="index.html">Home</a></li>
+	<li class="sub"><a href="about.html">About</a></li>
+	<li class="sub"><a href="product.html">Product</a></li>
+	<li class="sub"><a href="service.html">Service</a></li>
+	<li class="sub"><a href="contact.html">Contact</a></li>
+</ul>
+</div><!-- header -->
+<div id="content">
+
+<script type="text/javascript" src="js/jquery-1-4-2.min.js"></script> 
+<!--script type="text/javascript" src="/jqueryui/js/jquery-ui-1.7.2.custom.min.js"></script--> 
+<script type="text/javascript" src="js/jquery-ui.min.js"></script> 
+<script type="text/javascript" src="js/showhide.js"></script> 
+<script type="text/JavaScript" src="js/jquery.mousewheel.js"></script> 
+<link href="styles.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/ddsmoothmenu.js">
+
+
+</script>
+<script type="text/javascript">
+
+ddsmoothmenu.init({
+	mainmenuid: "templatemo_menu", //menu DIV id
+	orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+	classname: 'ddsmoothmenu', //class added to menu's outer DIV
+	//customtheme: ["#1c5a80", "#18374a"],
+	contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+})
+
+</script> 
+
+<!-- Load the CloudCarousel JavaScript file -->
+<script type="text/JavaScript" src="js/cloud-carousel.1.0.5.js"></script>
+ 
+<script type="text/javascript">
+$(document).ready(function(){
+						   
+	// This initialises carousels on the container elements specified, in this case, carousel1.
+	$("#carousel1").CloudCarousel(		
+		{			
+			reflHeight: 40,
+			reflGap:2,
+			titleBox: $('#da-vinci-title'),
+			altBox: $('#da-vinci-alt'),
+			buttonLeft: $('#slider-left-but'),
+			buttonRight: $('#slider-right-but'),
+			yRadius:30,
+			xPos: 480,
+			yPos: 32,
+			speed:0.15,
+		}
+	);
+});
+ 
+</script>
+
+     <div id="templatemo_menu" class="ddsmoothmenu">
+        <ul>
+      <h2>Latest Phone of 2020</h2>
+        </ul>
+        <br style="clear: left" />
+    </div> <!-- end of templatemo_menu -->
+	<table width="100%"><tr><td align="center">
+    <div id = "carousel1" style="width:960px; height:280px;background:none;overflow:scroll; margin-top: 20px">          
+        <!-- All images with class of "cloudcarousel" will be turned into carousel items -->
+        <!-- You can place links around these images -->
+        <a href="phone1.html"><img class="cloudcarousel" src="images/slider/1.png" alt="CSS Templates 1" title="Website Templates 1" /></a>
+        <a href="phone2.html"><img class="cloudcarousel" src="images/slider/2.png" alt="CSS Templates 2" title="Website Templates 2" /></a>
+        <a href="phone3.html"><img class="cloudcarousel" src="images/slider/3.png" alt="CSS Templates 3" title="Website Templates 3" /></a>
+        <a href="phone4.html"><img class="cloudcarousel" src="images/slider/4.png" alt="CSS Templates 4" title="Website Templates 4" /></a>
+        <a href="phone1.html"><img class="cloudcarousel" src="images/slider/1.png" alt="Flash Templates 1" title="Flash Templates 1" /></a>
+        <a href="phone2.html"><img class="cloudcarousel" src="images/slider/2.png" alt="Flash Templates 2" title="Flash Templates 2" /></a>
+        <a href="phone3.html"><img class="cloudcarousel" src="images/slider/3.png" alt="Flash Templates 3" title="Flash Templates 3" /></a>
+        <a href="phone4.html"><img class="cloudcarousel" src="images/slider/4.png" alt="Flash Templates 4" title="Flash Templates 4" /></a>
+    </div>  </td></tr> <tr><td align="center">
+    <!-- Define left and right buttons. -->
+    <input id="slider-left-but" type="button" value="" />
+    <input id="slider-right-but" type="button" value="" /> 
+	</td></tr></table>
+	<a href="#" class="btn-app"><img src="images/download-app.svg" alt="App Store Button"></a>
+    <a href="#" class="btn-app"><img src="images/download-app-android.png" alt="Play Store Button"></a>
+
+</div><!-- content -->
+<div id="footer">
+<div id="ft-up">
+<ul class="footer-left">
+	<li class="foot"><a href="index.html">Home</a></li>
+	<li class="foot"><a href="about.html">About</a></li>
+	<li class="foot"><a href="product.html">Product</a></li>
+	<li class="foot"><a href="service.html">Service</a></li>
+	<li class="foot"><a href="contact.html">Contact</a></li>
+</ul>
+<ul class="footer-right">
+	<li class="icon"><a href="#"><i class="ion-social-googleplus"></i></a></li>
+	<li class="icon"><a href="#"><i class="ion-social-instagram"></i></a></li>
+	<li class="icon"><a href="#"><i class="ion-social-twitter"></i></a></li>
+	<li class="icon"><a href="#"><i class="ion-social-facebook"></i></a></li>
+</ul>
+</div><!-- footer up -->
+<div id="ft-bottom">
+<p class="ft">Copyright &copy; 2020 by Top Mobile Myanmar. All rights reserved.</p>
+</div><!-- footer bottom -->
+</div><!-- footer -->
+</body>
+</html>
